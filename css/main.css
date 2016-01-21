@@ -1,4 +1,21 @@
+body {
+  color: #58595B;
+  font-size: 16px;
+  font-weight: 300; }
+
 .wrapper .topBanner img {
   width: 100%; }
+.wrapper .navbar-inverse {
+  background-color: transparent;
+  border-color: transparent;
+  border-bottom: 2px solid #F7D117;
+  border-radius: 0; }
+  .wrapper .navbar-inverse .nav .active a {
+    background-color: #f7f7f7; }
+  .wrapper .navbar-inverse .nav li a {
+    color: #808285; }
+    .wrapper .navbar-inverse .nav li a:hover, .wrapper .navbar-inverse .nav li a:focus, .wrapper .navbar-inverse .nav li a:active {
+      background-color: #f7f7f7;
+      color: #1c1c1d; }
 
 /*# sourceMappingURL=main.css.map */

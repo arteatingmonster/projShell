@@ -1,3 +1,6 @@
-
+.wrapper .topBanner img {
+  width: 100%; }
+.wrapper .navbar-inverse {
+  background-color: transparent; }
 
 /*# sourceMappingURL=main.css.map */

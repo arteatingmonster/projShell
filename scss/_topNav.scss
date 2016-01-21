@@ -5,4 +5,25 @@
       width: 100%;
     }
   }
+  
+  .navbar-inverse {
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: 2px solid $yellow;
+    border-radius: 0;
+    
+    .nav .active a{
+      background-color: lighten($light-gray, 10%);
+    }
+    
+    .nav li a {
+      color: $dark-gray;
+      
+      &:hover, &:focus, &:active {
+        background-color: lighten($light-gray, 10%);
+        color: darken($dark-gray, 40%);
+      }
+    }
+  }
 }
+
