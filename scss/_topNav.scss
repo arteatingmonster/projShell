@@ -1,9 +1,11 @@
 //sample scss
 .wrapper {
-  .topBanner {
-    img {
-      width: 100%;
-    }
+  .topBanner img {
+    width: 100%;
+  }
+  
+  .navbar {
+    margin-bottom: 0;
   }
   
   .navbar-inverse {
